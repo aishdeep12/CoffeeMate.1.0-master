@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import ie.cm.R;
 
-public class Settings extends AppCompatActivity {
+public class Settings extends Base {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

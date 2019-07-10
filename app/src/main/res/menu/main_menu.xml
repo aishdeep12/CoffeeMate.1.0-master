@@ -23,6 +23,13 @@
         app:showAsAction="ifRoom"
         android:onClick="menuSetting"/>
 
+    <item android:id="@+id/menu_setting1"
+        android:icon="@drawable/download"
+        android:title="settings"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:onClick="menuSetting"/>
+
     <item android:id="@+id/menu_home"
         android:icon="@drawable/home"
         android:title="Home"
